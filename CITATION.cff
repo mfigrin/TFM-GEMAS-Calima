@@ -1,18 +1,22 @@
 cff-version: 1.2.0
-message: "Versión candidata: verificar licencia y permisos antes de publicar y citar."
-title: "TFM-GEMAS-Calima: análisis ambiental y demostración microbiológica sintética"
+message: "Si utiliza el código de este repositorio, cite la versión correspondiente de GEMAS–Calima."
+title: "GEMAS–Calima: código del análisis de intrusiones saharianas y microbiota salival en asma"
 type: software
-version: "0.5-rc1"
+version: "0.5.0"
 authors:
   - family-names: "Figueiras Rincón"
     given-names: "Manuel Alberto"
+repository-code: "https://github.com/mfigrin/TFM-GEMAS-Calima"
+license: "MIT"
 abstract: >-
-  Scripts del análisis secundario GEMAS-Calima, preparación de fuentes ambientales,
-  demostración ejecutable con datos totalmente sintéticos y código histórico docente.
-  No se distribuyen datos clínicos individuales ni el objeto microbiológico real de GEMAS.
+  Código del análisis secundario GEMAS–Calima, reconstrucción de fuentes
+  ambientales, demostración ejecutable con datos completamente sintéticos
+  y scripts históricos con finalidad docente. Los datos clínicos individuales
+  y el objeto microbiológico real de GEMAS no se distribuyen.
 keywords:
   - asthma
   - microbiota
+  - salivary microbiome
   - Saharan dust
   - phyloseq
   - reproducibility
