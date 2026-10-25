@@ -1,0 +1,29 @@
+# Archivos de ejecución local
+.RData
+.Rhistory
+.Ruserdata
+.Rproj.user/
+.Renviron
+.env
+.env.*
+*.RData
+*.Rhistory
+*.RDS
+*.rds
+*.Rda
+*.rda
+*.log
+*.pyc
+__pycache__/
+*.zip
+
+# Datos/salidas personales o de ejecución
+_NO_PUBLICAR/
+02_ejemplo_sintetico/trabajo/
+environment_workspace/
+demo_workspace/
+work_private/
+work_environment/
+data_raw/
+outputs/
+logs/
