@@ -3,6 +3,8 @@ message: "Si utiliza el código de este repositorio, cite la versión correspond
 title: "GEMAS–Calima: código del análisis de intrusiones saharianas y microbiota salival en asma"
 type: software
 version: "0.5.0"
+doi: "10.5281/zenodo.23641264"
+url: "https://doi.org/10.5281/zenodo.23641264"
 authors:
   - family-names: "Figueiras Rincón"
     given-names: "Manuel Alberto"
