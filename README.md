@@ -1,5 +1,8 @@
 # GEMAS–Calima | Intrusiones saharianas y microbiota salival en asma
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23641264.svg)](https://doi.org/10.5281/zenodo.23641264)
+
+
 Repositorio de código del Trabajo Fin de Máster (TFM) sobre la asociación entre intrusiones de polvo sahariano y microbiota salival en personas con asma de Tenerife y La Palma. Incluye un flujo de análisis en R, datos ambientales de fuentes públicas, una demostración **completamente sintética** y el código histórico para consulta docente.
 
 ## Organización del proyecto
@@ -44,4 +47,4 @@ La licencia MIT del repositorio se aplica al código propio. Los datos y documen
 
 ## Citar este repositorio
 
-Usar la referencia indicada en `CITATION.cff`. Una vez depositada una versión en Zenodo, el DOI específico de esa versión se añadirá aquí.
+Usar la referencia indicada en `CITATION.cff`. Versión **v0.5.0** archivada en Zenodo: [https://doi.org/10.5281/zenodo.23641264](https://doi.org/10.5281/zenodo.23641264). DOI de la versión indicada; futuras versiones pueden tener un DOI propio.
