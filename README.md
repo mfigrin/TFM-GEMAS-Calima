@@ -1,37 +1,47 @@
-# GEMAS–Calima | Análisis ambiental y microbiota salival
-Código asociado al TFM sobre intrusiones de polvo sahariano y microbiota salival en pacientes con asma de Canarias.
+# GEMAS–Calima | Intrusiones saharianas y microbiota salival en asma
 
-## Carpetas
- #`analisis_final/`  Siete etapas numeradas del análisis final; `modulos/` reúne las funciones auxiliares. Se usa desde la demostración. |
- #`demo/` Tablas y árbol **sintéticos**, para generar `phyloseq`. No se incluyen datos de participantes reales. 
- # `codigo_original_tfm/`  Once scripts **No ejecutarlos como un pipeline**
- #`ambiente/`  Importación de la Red Canaria y registros MITECO, sin muestras de participantes. 
- #`data/environmental/` Fuentes ambientales originales 2016–2020 
- #`herramientas/` y `tests/`  Dependencias de ejecución y control técnico de la demostración. 
+Repositorio de código del Trabajo Fin de Máster (TFM) sobre la asociación entre intrusiones de polvo sahariano y microbiota salival en personas con asma de Tenerife y La Palma. Incluye un flujo de análisis en R, datos ambientales de fuentes públicas, una demostración **completamente sintética** y el código histórico para consulta docente.
 
+## Organización del proyecto
 
-## Ejecutar en RStudio
+| Carpeta | Contenido |
+| --- | --- |
+| `01_analisis/` | Siete etapas numeradas del análisis final; `modulos/` y `utilidades/` contienen funciones auxiliares. |
+| `02_ejemplo_sintetico/` | Tablas, árbol y metadatos inventados; preparación del objeto `phyloseq` y ejecución de la demostración. |
+| `03_codigo_original/` | Once scripts históricos del trabajo, conservados con fines docentes. **No deben ejecutarse secuencialmente como un pipeline**. |
+| `04_datos_ambientales/` | Datos ambientales originales y procesados; `procesar/` contiene los lectores de MITECO y Red Canaria. |
 
-# Comprobar paquetes y sintaxis, sin instalar nada automáticamente.
-source("herramientas/comprobar.R")
+Los archivos `TFM-GEMAS-Calima.Rproj`, `CITATION.cff` y `LICENSE` están en la raíz. Los resultados temporales y objetos generados en cada ejecución no se incluyen en el control de versiones.
 
-# Comprobar reconstrucción de los datos ambientales públicos.
-source("ambiente/ejecutar.R")
+## Ejecución en RStudio
 
-# Demostración completa SOLO con datos sintéticos.
-source("demo/ejecutar.R")
+Requiere R y los paquetes enumerados en `01_analisis/utilidades/comprobar.R`. El flujo se probó en Windows 11 con R 4.5.2 y las versiones de los paquetes documentadas en el TFM. Abrir `TFM-GEMAS-Calima.Rproj` y ejecutar desde la raíz:
+
+```r
+# Comprobar dependencias y sintaxis.
+source("01_analisis/utilidades/comprobar.R")
+
+# Reconstruir y comprobar las series ambientales públicas.
+source("04_datos_ambientales/procesar/ejecutar.R")
+
+# Ejecutar las siete etapas con datos enteramente sintéticos.
+source("02_ejemplo_sintetico/ejecutar.R")
 ```
 
-La demostración genera `demo/trabajo/` y registros por etapa. 
+La demostración construye su objeto `phyloseq` exclusivamente a partir de los archivos ficticios de `02_ejemplo_sintetico/datos/` y registra las salidas en `02_ejemplo_sintetico/trabajo/`. Para repetir una ejecución, conservar una copia de las salidas que se quieran guardar y renombrar o eliminar **solo ese directorio de trabajo sintético**. No es necesario disponer de datos clínicos reales.
 
-El código ejecuta: preparación de objetos, diversidad beta/UniFrac, taxonomía, modelos de intrusión MITECO, DESeq2, PERMANOVA principal y complementos de PM10/tablas. La PERMANOVA principal usa **9.999 permutaciones**, semilla **20260831**; UniFrac no ponderado requiere rarefacción a **10.000 lecturas**, semilla **20260822**. 
-Esta demostración comprueba el funcionamiento técnico; **no reproduce los resultados clínicos publicados en el TFM**. Para hacerlo serían necesarios los datos originales de GEMAS y los metadatos clínicos obtenidos con autorización. 
+Las etapas comprenden preparación de objetos, distancias ecológicas, composición taxonómica, modelos de exposición MITECO, DESeq2, PERMANOVA principal y análisis complementarios de PM10. La PERMANOVA principal utiliza 9.999 permutaciones (semilla 20260831); los contrastes beta secundarios conservan 999 permutaciones. UniFrac no ponderado utiliza rarefacción a 10.000 lecturas por muestra (semilla 20260822).
 
-Los once scripts conservan internamente las fórmulas, revisiones y comentarios de la investigación original. Se adaptaron previamente rutas locales y dos ejemplos de identificadores de muestras para evitar difusión de información individual. Esta versión **solo les cambia el nombre de archivo**, de la siguiente forma:
+**Alcance de la reproducibilidad:** la demostración permite comprobar técnicamente la ejecución, pero **no reproduce los resultados ni las estimaciones clínicas del TFM**. Para ello se necesita acceso autorizado al objeto microbiológico procesado y a los metadatos individuales de GEMAS. No se distribuyen esos datos ni el objeto `phyloseq` real.
 
-## Fuentes, privacidad y difusión
+## Fuentes de datos y difusión
 
-- **Fuentes MITECO:** [Fuentes naturales e informes históricos](https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/evaluacion-y-datos-de-calidad-del-aire/fuentes-naturales/anuales.html).
-- **Red Canaria:** [Red de Control y Vigilancia de la Calidad del Aire](https://www3.gobiernodecanarias.org/medioambiente/calidaddelaire/inicio.do).
-- **Lecturas microbiológicas originales:** BioProject [PRJNA878647](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA878647), custodiadas por SRA
+- **MITECO:** [Fuentes naturales e informes históricos](https://www.miteco.gob.es/es/calidad-y-evaluacion-ambiental/temas/atmosfera-y-calidad-del-aire/evaluacion-y-datos-de-calidad-del-aire/fuentes-naturales/anuales.html).
+- **Red Canaria de Calidad del Aire:** [Portal oficial](https://www3.gobiernodecanarias.org/medioambiente/calidaddelaire/inicio.do).
+- **Lecturas microbiológicas originales de GEMAS:** [BioProject PRJNA878647](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA878647). No se reprocesan FASTQ en el análisis secundario del TFM.
 
+La licencia MIT del repositorio se aplica al código propio. Los datos y documentos de terceros mantienen sus condiciones de uso y atribución de origen.
+
+## Citar este repositorio
+
+Usar la referencia indicada en `CITATION.cff`. Una vez depositada una versión en Zenodo, el DOI específico de esa versión se añadirá aquí.
