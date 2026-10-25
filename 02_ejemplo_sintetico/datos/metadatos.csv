@@ -1,0 +1,219 @@
+sample_id,sample.type,Age,Sex.letter,Pool,Antibiotic.2mo,Cavities,Chewing.gum.30min,Exacerbations.6M,Exacerbations.12M,Date,Island,synthetic,Sex.number
+SYN_0001,Saliva,79,Male,2,0,0,1,0,1,2020-01-14,Tenerife,True,1
+SYN_0002,Saliva,60,Female,6,1,0,0,0,0,2019-12-09,La Palma,True,0
+SYN_0003,Saliva,44,Male,3,0,0,0,0,1,2018-03-10,Tenerife,True,1
+SYN_0004,Saliva,36,Female,6,0,0,0,0,0,2019-04-19,La Palma,True,0
+SYN_0005,Saliva,62,Male,3,0,1,0,0,0,2019-06-12,Tenerife,True,1
+SYN_0006,Saliva,40,Male,2,0,0,0,0,1,2018-12-14,Tenerife,True,1
+SYN_0007,Saliva,78,Female,1,0,1,0,0,1,2018-06-26,Tenerife,True,0
+SYN_0008,Saliva,67,Male,3,1,0,0,0,1,2019-09-28,La Palma,True,1
+SYN_0009,Saliva,59,Male,3,0,1,0,0,1,2019-11-12,La Palma,True,1
+SYN_0010,Saliva,36,Female,1,0,1,0,0,1,2019-09-01,La Palma,True,0
+SYN_0011,Saliva,54,Female,6,1,0,0,0,0,2019-06-30,Tenerife,True,0
+SYN_0012,Saliva,75,Male,6,0,0,0,0,1,2018-03-28,Tenerife,True,1
+SYN_0013,Saliva,61,Male,1,0,0,0,0,1,2018-04-06,La Palma,True,1
+SYN_0014,Saliva,61,Male,1,0,0,0,1,1,2019-12-09,La Palma,True,1
+SYN_0015,Saliva,68,Female,6,1,0,1,1,1,2018-09-15,La Palma,True,0
+SYN_0016,Saliva,29,Male,6,0,1,0,1,1,2019-01-28,Tenerife,True,1
+SYN_0017,Saliva,73,Male,6,0,0,0,1,1,2019-11-12,La Palma,True,1
+SYN_0018,Saliva,51,Female,6,0,1,0,0,0,2018-11-17,Tenerife,True,0
+SYN_0019,Saliva,60,Female,3,0,1,0,0,1,2020-03-26,Tenerife,True,0
+SYN_0020,Saliva,40,Male,6,0,0,1,1,1,2019-04-19,La Palma,True,1
+SYN_0021,Saliva,64,Female,1,0,1,0,0,1,2020-03-26,Tenerife,True,0
+SYN_0022,Saliva,20,Female,3,0,1,0,1,1,2020-06-15,La Palma,True,0
+SYN_0023,Saliva,38,Female,6,0,1,0,0,1,2018-05-03,Tenerife,True,0
+SYN_0024,Saliva,75,Male,6,0,0,0,1,1,2019-04-19,Tenerife,True,1
+SYN_0025,Saliva,63,Male,6,1,1,1,0,0,2020-04-13,Tenerife,True,1
+SYN_0026,Saliva,55,Male,2,0,0,0,0,1,2018-05-03,La Palma,True,1
+SYN_0027,Saliva,33,Female,1,0,1,0,0,1,2020-02-28,Tenerife,True,0
+SYN_0028,Saliva,75,Female,6,1,1,0,1,1,2019-01-28,La Palma,True,0
+SYN_0029,Saliva,46,Female,3,0,0,0,1,1,2018-09-24,Tenerife,True,0
+SYN_0030,Saliva,79,Male,6,0,1,0,0,0,2019-06-12,La Palma,True,1
+SYN_0031,Saliva,34,Male,1,0,0,0,0,1,2019-06-21,La Palma,True,1
+SYN_0032,Saliva,22,Female,3,0,1,0,0,0,2019-11-03,Tenerife,True,0
+SYN_0033,Saliva,44,Male,1,0,0,0,0,0,2019-12-09,La Palma,True,1
+SYN_0034,Saliva,23,Male,6,0,0,1,0,1,2020-01-05,Tenerife,True,1
+SYN_0035,Saliva,50,Female,6,0,1,0,1,1,2020-05-19,Tenerife,True,0
+SYN_0036,Saliva,37,Female,6,0,0,0,0,1,2019-08-05,La Palma,True,0
+SYN_0037,Saliva,64,Female,1,0,0,1,1,1,2018-09-06,Tenerife,True,0
+SYN_0038,Saliva,35,Male,1,0,0,0,1,1,2019-10-07,Tenerife,True,1
+SYN_0039,Saliva,30,Male,1,0,1,0,1,1,2018-08-28,La Palma,True,1
+SYN_0040,Saliva,22,Female,6,0,0,0,0,0,2018-10-21,Tenerife,True,0
+SYN_0041,Saliva,74,Female,1,1,1,0,0,0,2019-01-01,La Palma,True,0
+SYN_0042,Saliva,44,Female,2,0,0,1,0,1,2020-02-28,La Palma,True,0
+SYN_0043,Saliva,69,Female,6,0,0,0,0,0,2019-10-25,La Palma,True,0
+SYN_0044,Saliva,36,Female,6,0,1,0,1,1,2018-05-03,La Palma,True,0
+SYN_0045,Saliva,33,Female,2,1,0,0,0,1,2019-12-27,Tenerife,True,0
+SYN_0046,Saliva,49,Male,3,0,0,0,0,0,2019-09-10,La Palma,True,1
+SYN_0047,Saliva,32,Male,3,1,0,1,0,0,2018-09-15,La Palma,True,1
+SYN_0048,Saliva,53,Female,3,0,1,1,1,1,2020-05-19,Tenerife,True,0
+SYN_0049,Saliva,80,Female,1,0,0,0,1,1,2019-09-01,Tenerife,True,0
+SYN_0050,Saliva,18,Male,1,0,0,0,0,0,2020-04-13,La Palma,True,1
+SYN_0051,Saliva,61,Female,1,1,0,0,1,1,2020-02-01,La Palma,True,0
+SYN_0052,Saliva,74,Female,3,0,0,0,0,0,2019-07-27,Tenerife,True,0
+SYN_0053,Saliva,80,Female,6,0,0,0,0,1,2018-04-24,Tenerife,True,0
+SYN_0054,Saliva,58,Male,3,1,1,0,1,1,2018-10-21,Tenerife,True,1
+SYN_0055,Saliva,62,Female,1,0,0,0,0,0,2018-07-14,Tenerife,True,0
+SYN_0056,Saliva,60,Male,3,0,0,1,1,1,2019-12-18,La Palma,True,1
+SYN_0057,Saliva,37,Male,2,1,0,1,0,1,2019-12-27,Tenerife,True,1
+SYN_0058,Saliva,42,Female,3,1,1,0,0,0,2019-08-05,Tenerife,True,0
+SYN_0059,Saliva,48,Female,6,0,0,0,0,1,2020-05-01,La Palma,True,0
+SYN_0060,Saliva,69,Male,6,0,0,0,0,0,2020-01-23,Tenerife,True,1
+SYN_0061,Saliva,68,Male,6,0,0,0,1,1,2019-11-30,Tenerife,True,1
+SYN_0062,Saliva,32,Male,3,0,1,0,0,1,2019-12-18,La Palma,True,1
+SYN_0063,Saliva,47,Female,1,0,0,0,0,0,2019-10-07,Tenerife,True,0
+SYN_0064,Saliva,45,Male,1,0,0,0,0,0,2018-03-19,Tenerife,True,1
+SYN_0065,Saliva,20,Male,3,0,0,0,0,0,2020-05-28,La Palma,True,1
+SYN_0066,Saliva,47,Male,3,0,1,0,0,1,2018-11-17,La Palma,True,1
+SYN_0067,Saliva,54,Female,6,0,0,0,0,0,2019-04-19,La Palma,True,0
+SYN_0068,Saliva,27,Female,2,1,1,0,0,0,2018-08-01,La Palma,True,0
+SYN_0069,Saliva,76,Female,3,1,0,0,0,1,2020-06-15,La Palma,True,0
+SYN_0070,Saliva,27,Male,3,1,1,0,1,1,2019-12-27,La Palma,True,1
+SYN_0071,Saliva,79,Female,1,0,1,0,0,1,2019-04-01,Tenerife,True,0
+SYN_0072,Saliva,47,Female,1,0,0,0,0,1,2018-10-21,La Palma,True,0
+SYN_0073,Saliva,79,Female,1,1,1,0,1,1,2018-03-19,Tenerife,True,0
+SYN_0074,Saliva,63,Male,6,0,0,0,1,1,2019-09-19,La Palma,True,1
+SYN_0075,Saliva,73,Male,2,0,0,0,1,1,2018-10-30,La Palma,True,1
+SYN_0076,Saliva,18,Male,3,0,0,0,0,1,2019-07-18,La Palma,True,1
+SYN_0077,Saliva,31,Male,3,0,0,0,0,1,2019-05-25,Tenerife,True,1
+SYN_0078,Saliva,77,Female,1,0,1,1,0,0,2019-10-07,Tenerife,True,0
+SYN_0079,Saliva,23,Female,2,1,1,0,0,0,2018-07-23,La Palma,True,0
+SYN_0080,Saliva,63,Male,2,0,0,0,0,0,2019-04-28,Tenerife,True,1
+SYN_0081,Saliva,22,Male,6,0,0,0,0,1,2018-10-21,La Palma,True,1
+SYN_0082,Saliva,40,Female,3,0,0,0,0,0,2019-06-21,La Palma,True,0
+SYN_0083,Saliva,52,Male,1,0,1,0,1,1,2019-09-19,Tenerife,True,1
+SYN_0084,Saliva,73,Male,6,1,0,0,1,1,2018-07-14,Tenerife,True,1
+SYN_0085,Saliva,29,Female,6,1,0,0,0,0,2018-12-14,Tenerife,True,0
+SYN_0086,Saliva,23,Male,1,0,1,1,0,0,2018-12-23,Tenerife,True,1
+SYN_0087,Saliva,62,Male,3,0,0,0,1,1,2019-11-30,La Palma,True,1
+SYN_0088,Saliva,18,Female,3,0,0,0,1,1,2020-06-15,Tenerife,True,0
+SYN_0089,Saliva,55,Female,3,0,0,0,1,1,2018-11-17,Tenerife,True,0
+SYN_0090,Saliva,52,Female,1,0,0,0,0,0,2018-11-08,Tenerife,True,0
+SYN_0091,Saliva,60,Female,1,0,1,1,0,0,2018-06-17,La Palma,True,0
+SYN_0092,Saliva,36,Female,3,1,1,0,0,0,2019-09-10,Tenerife,True,0
+SYN_0093,Saliva,35,Female,2,0,0,0,0,0,2018-03-28,Tenerife,True,0
+SYN_0094,Saliva,72,Male,3,0,1,0,0,1,2020-03-08,La Palma,True,1
+SYN_0095,Saliva,53,Male,6,0,0,0,1,1,2020-06-15,Tenerife,True,1
+SYN_0096,Saliva,26,Male,2,0,1,0,1,1,2019-10-25,La Palma,True,1
+SYN_0097,Saliva,43,Male,6,1,1,0,0,0,2018-07-14,La Palma,True,1
+SYN_0098,Saliva,19,Female,6,0,0,0,1,1,2018-03-19,Tenerife,True,0
+SYN_0099,Saliva,61,Male,1,0,0,0,0,1,2020-02-19,La Palma,True,1
+SYN_0100,Saliva,62,Male,3,1,0,0,1,1,2020-04-13,Tenerife,True,1
+SYN_0101,Saliva,60,Female,2,0,0,0,0,0,2019-03-23,La Palma,True,0
+SYN_0102,Saliva,44,Male,1,0,0,0,0,1,2019-03-14,La Palma,True,1
+SYN_0103,Saliva,65,Male,2,0,1,0,1,1,2020-01-14,La Palma,True,1
+SYN_0104,Saliva,71,Male,3,0,0,0,0,0,2018-08-01,Tenerife,True,1
+SYN_0105,Saliva,57,Male,1,0,0,0,0,1,2019-06-12,Tenerife,True,1
+SYN_0106,Saliva,47,Female,3,0,0,1,0,1,2020-03-26,La Palma,True,0
+SYN_0107,Saliva,24,Female,6,0,0,0,0,0,2019-01-28,La Palma,True,0
+SYN_0108,Saliva,29,Male,3,0,0,0,0,0,2018-12-23,La Palma,True,1
+SYN_0109,Saliva,74,Female,6,1,1,0,1,1,2018-03-10,La Palma,True,0
+SYN_0110,Saliva,38,Male,2,0,0,0,1,1,2020-04-04,La Palma,True,1
+SYN_0111,Saliva,62,Female,2,0,0,0,0,0,2019-11-30,La Palma,True,0
+SYN_0112,Saliva,33,Male,2,1,0,0,1,1,2020-06-06,La Palma,True,1
+SYN_0113,Saliva,71,Female,1,1,1,0,0,0,2019-06-12,La Palma,True,0
+SYN_0114,Saliva,77,Male,3,0,0,0,0,0,2020-04-22,Tenerife,True,1
+SYN_0115,Saliva,66,Female,3,1,1,0,1,1,2019-01-28,Tenerife,True,0
+SYN_0116,Saliva,63,Female,2,0,0,0,0,0,2020-04-04,Tenerife,True,0
+SYN_0117,Saliva,51,Female,3,0,0,0,1,1,2019-01-01,La Palma,True,0
+SYN_0118,Saliva,45,Female,6,0,1,0,0,0,2019-11-30,La Palma,True,0
+SYN_0119,Saliva,55,Male,2,0,1,0,1,1,2020-04-22,La Palma,True,1
+SYN_0120,Saliva,68,Male,3,1,0,0,0,0,2019-04-10,Tenerife,True,1
+SYN_0121,Saliva,66,Female,3,0,1,0,0,1,2019-03-23,Tenerife,True,0
+SYN_0122,Saliva,39,Male,1,1,1,0,0,0,2018-10-30,La Palma,True,1
+SYN_0123,Saliva,41,Female,2,0,0,0,0,1,2018-04-24,La Palma,True,0
+SYN_0124,Saliva,79,Female,1,1,0,1,0,0,2018-12-14,La Palma,True,0
+SYN_0125,Saliva,46,Female,6,1,0,0,0,0,2019-02-15,La Palma,True,0
+SYN_0126,Saliva,29,Female,1,0,1,0,1,1,2020-05-10,Tenerife,True,0
+SYN_0127,Saliva,75,Male,3,0,1,0,0,0,2018-04-24,Tenerife,True,1
+SYN_0128,Saliva,21,Male,6,0,1,1,0,0,2019-07-27,Tenerife,True,1
+SYN_0129,Saliva,56,Male,6,1,1,0,0,0,2018-08-28,La Palma,True,1
+SYN_0130,Saliva,19,Male,1,0,1,0,0,1,2020-02-10,Tenerife,True,1
+SYN_0131,Saliva,21,Female,3,0,0,0,0,0,2018-05-12,La Palma,True,0
+SYN_0132,Saliva,33,Male,1,1,0,0,0,0,2018-07-05,La Palma,True,1
+SYN_0133,Saliva,29,Female,6,1,0,0,0,0,2019-06-21,La Palma,True,0
+SYN_0134,Saliva,73,Female,2,0,0,0,0,1,2018-06-26,La Palma,True,0
+SYN_0135,Saliva,60,Male,6,0,0,0,0,0,2019-11-30,Tenerife,True,1
+SYN_0136,Saliva,80,Female,3,0,0,0,0,0,2020-02-01,La Palma,True,0
+SYN_0137,Saliva,49,Female,3,0,0,0,0,0,2019-07-27,Tenerife,True,0
+SYN_0138,Saliva,68,Male,6,0,0,0,1,1,2018-07-05,La Palma,True,1
+SYN_0139,Saliva,53,Female,6,0,0,0,0,0,2018-09-06,Tenerife,True,0
+SYN_0140,Saliva,78,Male,3,0,0,0,1,1,2019-10-16,La Palma,True,1
+SYN_0141,Saliva,55,Male,2,1,1,0,1,1,2019-10-16,Tenerife,True,1
+SYN_0142,Saliva,70,Female,1,0,0,0,0,0,2019-09-28,La Palma,True,0
+SYN_0143,Saliva,26,Male,3,0,0,0,0,0,2018-03-01,La Palma,True,1
+SYN_0144,Saliva,60,Male,3,0,0,0,0,1,2020-06-24,La Palma,True,1
+SYN_0145,Saliva,45,Male,3,0,0,0,0,1,2018-11-08,La Palma,True,1
+SYN_0146,Saliva,31,Male,2,0,0,0,1,1,2020-06-15,La Palma,True,1
+SYN_0147,Saliva,46,Male,2,1,0,0,1,1,2020-03-26,La Palma,True,1
+SYN_0148,Saliva,71,Male,1,0,1,0,0,1,2019-03-05,Tenerife,True,1
+SYN_0149,Saliva,56,Male,6,1,0,0,1,1,2018-12-05,Tenerife,True,1
+SYN_0150,Saliva,65,Male,6,0,0,0,0,0,2018-10-21,Tenerife,True,1
+SYN_0151,Saliva,25,Female,3,0,0,0,1,1,2020-01-05,Tenerife,True,0
+SYN_0152,Saliva,55,Male,6,1,0,0,0,1,2018-05-12,La Palma,True,1
+SYN_0153,Saliva,79,Female,6,0,1,0,1,1,2018-12-23,Tenerife,True,0
+SYN_0154,Saliva,26,Male,3,1,0,0,1,1,2020-02-28,La Palma,True,1
+SYN_0155,Saliva,57,Female,1,0,0,0,0,1,2019-10-25,La Palma,True,0
+SYN_0156,Saliva,26,Female,6,0,1,0,0,1,2018-04-24,Tenerife,True,0
+SYN_0157,Saliva,79,Male,2,0,1,1,0,0,2018-07-05,La Palma,True,1
+SYN_0158,Saliva,65,Female,1,1,0,0,0,1,2019-02-06,La Palma,True,0
+SYN_0159,Saliva,58,Male,3,0,0,1,0,0,2020-03-08,Tenerife,True,1
+SYN_0160,Saliva,35,Female,6,0,1,0,1,1,2019-01-19,La Palma,True,0
+SYN_0161,Saliva,26,Male,6,0,1,0,0,0,2019-06-30,La Palma,True,1
+SYN_0162,Saliva,53,Female,6,0,1,0,0,0,2018-07-23,La Palma,True,0
+SYN_0163,Saliva,74,Male,3,0,0,1,1,1,2020-05-10,La Palma,True,1
+SYN_0164,Saliva,58,Male,2,0,0,0,0,1,2019-01-01,Tenerife,True,1
+SYN_0165,Saliva,64,Female,2,0,0,0,0,0,2018-12-05,La Palma,True,0
+SYN_0166,Saliva,30,Male,2,0,0,0,1,1,2019-04-19,La Palma,True,1
+SYN_0167,Saliva,71,Female,6,0,0,0,1,1,2020-04-04,La Palma,True,0
+SYN_0168,Saliva,53,Male,6,0,0,0,1,1,2018-09-15,La Palma,True,1
+SYN_0169,Saliva,73,Female,2,0,0,0,0,0,2018-03-28,La Palma,True,0
+SYN_0170,Saliva,44,Female,1,0,1,1,0,1,2018-04-15,Tenerife,True,0
+SYN_0171,Saliva,66,Male,1,0,1,0,0,0,2020-04-04,Tenerife,True,1
+SYN_0172,Saliva,48,Male,6,1,0,0,0,1,2018-07-05,Tenerife,True,1
+SYN_0173,Saliva,34,Female,3,0,0,0,0,0,2019-01-10,La Palma,True,0
+SYN_0174,Saliva,56,Female,3,0,0,0,0,0,2018-11-26,Tenerife,True,0
+SYN_0175,Saliva,57,Female,2,0,0,0,0,0,2020-05-01,Tenerife,True,0
+SYN_0176,Saliva,19,Male,2,0,0,0,1,1,2018-03-01,Tenerife,True,1
+SYN_0177,Saliva,72,Male,1,0,0,0,1,1,2018-12-23,La Palma,True,1
+SYN_0178,Saliva,40,Male,2,0,0,0,1,1,2018-09-06,Tenerife,True,1
+SYN_0179,Saliva,25,Male,2,0,1,0,0,0,2018-06-17,Tenerife,True,1
+SYN_0180,Saliva,40,Female,6,1,0,0,0,0,2020-05-19,Tenerife,True,0
+SYN_0181,Saliva,24,Female,1,0,0,0,0,0,2019-02-06,La Palma,True,0
+SYN_0182,Saliva,47,Male,2,0,0,0,1,1,2018-09-15,La Palma,True,1
+SYN_0183,Saliva,66,Male,6,0,0,0,1,1,2019-03-23,La Palma,True,1
+SYN_0184,Saliva,42,Female,6,0,1,0,0,0,2020-01-23,Tenerife,True,0
+SYN_0185,Saliva,47,Female,6,1,1,0,0,0,2019-12-18,La Palma,True,0
+SYN_0186,Saliva,75,Female,1,0,1,0,0,0,2018-08-10,La Palma,True,0
+SYN_0187,Saliva,42,Male,2,1,0,0,0,1,2019-01-19,Tenerife,True,1
+SYN_0188,Saliva,20,Male,3,0,0,1,1,1,2020-04-04,Tenerife,True,1
+SYN_0189,Saliva,67,Male,3,0,0,0,1,1,2020-03-17,La Palma,True,1
+SYN_0190,Saliva,66,Female,1,0,0,1,0,1,2019-06-03,Tenerife,True,0
+SYN_0191,Saliva,75,Male,2,0,1,0,0,1,2019-07-27,Tenerife,True,1
+SYN_0192,Saliva,44,Male,6,0,0,0,1,1,2019-08-14,La Palma,True,1
+SYN_0193,Saliva,24,Female,1,0,1,0,0,0,2019-04-28,Tenerife,True,0
+SYN_0194,Saliva,72,Female,1,0,0,0,1,1,2020-03-17,Tenerife,True,0
+SYN_0195,Saliva,24,Female,2,1,0,0,1,1,2018-03-19,La Palma,True,0
+SYN_0196,Saliva,63,Male,2,0,1,0,0,1,2018-07-05,Tenerife,True,1
+SYN_0197,Saliva,60,Female,6,1,0,0,0,0,2019-05-16,La Palma,True,0
+SYN_0198,Saliva,30,Male,1,0,0,0,0,1,2018-09-24,Tenerife,True,1
+SYN_0199,Saliva,30,Male,1,0,0,0,0,0,2018-03-28,Tenerife,True,1
+SYN_0200,Saliva,32,Female,1,0,0,0,0,0,2019-11-21,Tenerife,True,0
+SYN_0201,Saliva,57,Female,3,1,0,0,0,0,2018-07-14,La Palma,True,0
+SYN_0202,Saliva,78,Male,1,0,0,0,0,1,2018-05-21,La Palma,True,1
+SYN_0203,Saliva,51,Male,6,0,0,1,1,1,2020-04-22,Tenerife,True,1
+SYN_0204,Saliva,26,Female,6,0,0,1,1,1,2018-07-23,Tenerife,True,0
+SYN_0205,Saliva,33,Female,2,0,0,0,0,1,2020-03-26,La Palma,True,0
+SYN_0206,Saliva,57,Female,6,0,0,0,0,0,,La Palma,True,0
+SYN_CTRL_001,Mock,73,Female,6,1,0,0,0,0,,Tenerife,True,0
+SYN_CTRL_002,Mock,49,Female,3,1,0,0,1,1,,La Palma,True,0
+SYN_CTRL_003,Mock,52,Female,1,0,0,0,0,1,,La Palma,True,0
+SYN_CTRL_004,Mock,26,Male,2,0,1,0,0,1,,La Palma,True,1
+SYN_CTRL_005,Mock,32,Female,6,0,0,0,1,1,,Tenerife,True,0
+SYN_CTRL_006,Mock,32,Female,6,1,0,0,0,1,,La Palma,True,0
+SYN_CTRL_007,NTC,33,Male,3,0,1,1,1,1,,Tenerife,True,1
+SYN_CTRL_008,NTC,35,Female,6,1,0,0,1,1,,Tenerife,True,0
+SYN_CTRL_009,NTC,49,Male,2,1,0,0,0,1,,Tenerife,True,1
+SYN_CTRL_010,NTC,66,Male,1,0,0,0,0,0,,La Palma,True,1
+SYN_CTRL_011,NTC,56,Female,3,0,1,0,0,0,,Tenerife,True,0
+SYN_CTRL_012,NTC,54,Female,3,1,0,0,1,1,,Tenerife,True,0

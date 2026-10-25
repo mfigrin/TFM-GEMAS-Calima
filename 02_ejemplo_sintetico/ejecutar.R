@@ -1,0 +1,26 @@
+# Ejecutar desde la raíz del proyecto. Solo admite el espacio de trabajo sintético.
+local({
+  root <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
+  if (!file.exists("TFM-GEMAS-Calima.Rproj")) stop("Abrir TFM-GEMAS-Calima.Rproj.")
+  source("01_analisis/utilidades/comprobar.R", local = TRUE)
+  source("01_analisis/utilidades/verificar_aleatoriedad.R", local = TRUE)
+  work <- file.path(root, "02_ejemplo_sintetico/trabajo")
+  if (!dir.exists(work)) source("02_ejemplo_sintetico/preparar_datos.R", local = TRUE)
+  if (!file.exists(file.path(work, "SYNTHETIC_ONLY.txt"))) stop("Falta el marcador de datos sintéticos.")
+  ps <- readRDS(file.path(work, "phyloseq_sintetico.rds"))
+  m <- as(phyloseq::sample_data(ps), "data.frame")
+  if (!"synthetic" %in% names(m) || !all(as.logical(m$synthetic)) ||
+      !all(grepl("^SYN_", phyloseq::sample_names(ps)))) stop("No se admite un objeto clínico real.")
+  if (file.exists(file.path(work, "logs/estado_ejecucion.csv")))
+    stop("Este trabajo ya contiene una ejecución. Renombrar 02_ejemplo_sintetico/trabajo antes de repetirla.")
+  source("02_ejemplo_sintetico/comprobar_objeto.R", local = TRUE)
+  source("01_analisis/utilidades/ejecucion.R", local = TRUE)
+  old <- Sys.getenv("TFM_CODE_ROOT", unset = NA_character_)
+  on.exit(if (is.na(old)) Sys.unsetenv("TFM_CODE_ROOT") else Sys.setenv(TFM_CODE_ROOT = old), add = TRUE)
+  Sys.setenv(TFM_CODE_ROOT = root)
+  pasos <- c("01_preparar_objetos.R", "02_calcular_distancias.R", "03_describir_taxonomia.R",
+             "04_modelos_miteco.R", "05_deseq2.R", "06_permanova_principal.R", "07_pm10_y_tablas.R")
+  tfm_run_isolated(root, work, file.path("01_analisis", pasos))
+  capture.output(sessionInfo(), file = file.path(work, "logs/sessionInfo_lanzador.txt"))
+  message("Demostración terminada. Revisar sus registros antes de marcar la versión como comprobada.")
+})

@@ -1,0 +1,14 @@
+{
+  "tipo": "datos completamente sintéticos",
+  "origen": "02_ejemplo_sintetico/generar_tablas.py",
+  "seed": 20261024,
+  "rng": "NumPy default_rng / PCG64",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "muestras": 218,
+  "salivas": 206,
+  "controles": 12,
+  "muestras_con_fecha": 205,
+  "ASV": 320,
+  "advertencia": "No es el mismo conjunto sintético que la prueba v0.2; no reproduce resultados científicos."
+}
